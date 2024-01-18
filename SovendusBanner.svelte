@@ -40,7 +40,8 @@
 		orderValue: orderValue,
 		orderCurrency: orderCurrency,
 		usedCouponCode: usedCouponCode,
-		iframeContainerId: sovDivId
+		iframeContainerId: sovDivId,
+		integrationType: "svelte-1.0.1"
 	});
 	window.sovConsumer = {
 		consumerSalutation: consumerSalutation,
@@ -62,4 +63,4 @@
 	body.appendChild(script);
 </script>
 
-<div id={sovDivId} version="Sovendus Svelte 1.0.0" ></div>
+<div id={sovDivId}></div>
