@@ -1,7 +1,7 @@
 # Sovendus Voucher Network & Checkout Benefits Component for Svelte
 
 ## Integrate into your Svelte app
-1. Download the Sovendus component from [here](https://raw.githubusercontent.com/Sovendus-GmbH/Sovendus-Voucher-Network-and-Checkout-Benefits-Component-for-Vue/main/releases/sovendus-voucher-network-checkout-benefits-svelte-latest.zip) and unpack it into your Svelte project / components folder
+1. Download the Sovendus component from [here](https://raw.githubusercontent.com/Sovendus-GmbH/Sovendus-Voucher-Network-and-Checkout-Benefits-Component-for-Svelte/main/releases/sovendus-voucher-network-checkout-benefits-svelte-latest.zip) and unpack it into your Svelte project / components folder
 2. You can then use the component like with the following example:
     ```html
 	<SovendusBanner
