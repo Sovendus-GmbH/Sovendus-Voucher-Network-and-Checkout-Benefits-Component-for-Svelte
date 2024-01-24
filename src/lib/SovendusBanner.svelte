@@ -41,7 +41,7 @@
     orderCurrency: orderCurrency,
     usedCouponCode: usedCouponCode,
     iframeContainerId: sovDivId,
-    integrationType: "svelte-1.0.1",
+    integrationType: "svelte-1.0.3",
   });
   window.sovConsumer = {
     consumerSalutation: consumerSalutation,
