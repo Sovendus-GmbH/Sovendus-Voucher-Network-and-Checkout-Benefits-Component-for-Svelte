@@ -21,11 +21,13 @@
 	export let consumerFirstName: string = '';
 	export let consumerLastName: string = '';
 	export let consumerEmail: string = '';
+	export let consumerPhone: string = '';
 	export let consumerStreet: string = '';
 	export let consumerStreetNumber: string = '';
 	export let consumerCity: string = '';
 	export let consumerCountry: string = '';
 	export let consumerZipcode: string = '';
+	export let consumerDateOfBirth: string = '';
 	export let consumerYearOfBirth: number = 0;
 	let sovDivId: string = '';
 	onMount(() => {
@@ -43,19 +45,21 @@
 			orderCurrency: orderCurrency,
 			usedCouponCode: usedCouponCode,
 			iframeContainerId: sovDivId,
-			integrationType: 'svelte-1.0.7'
+			integrationType: 'svelte-1.0.9'
 		});
 		window.sovConsumer = {
 			consumerSalutation: consumerSalutation,
 			consumerFirstName: consumerFirstName,
 			consumerLastName: consumerLastName,
 			consumerEmail: consumerEmail,
+			consumerPhone: consumerPhone,
 			consumerStreet: consumerStreet,
 			consumerStreetNumber: consumerStreetNumber,
 			consumerCity: consumerCity,
 			consumerCountry: consumerCountry,
 			consumerZipcode: consumerZipcode,
-			consumerYearOfBirth: consumerYearOfBirth || ''
+			consumerYearOfBirth: consumerYearOfBirth || '',
+			consumerDateOfBirth: consumerDateOfBirth,
 		};
 		const script = document.createElement('script');
 		script.async = true;

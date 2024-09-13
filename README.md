@@ -28,12 +28,14 @@ You can then use the component as with the following example on your order succe
  consumerFirstName="John"
  consumerLastName="Smith"
  consumerEmail="test@example.com"
+ consumerPhone="+49155123456789"
  consumerStreet="Street Name"
  consumerStreetNumber="12/4"
  consumerCity="CityName"
  consumerCountry="DE"
  consumerZipcode="94419"
  consumerYearOfBirth={1991}
+ consumerDateOfBirth={"01.12.2020"}
 />
 ```
 

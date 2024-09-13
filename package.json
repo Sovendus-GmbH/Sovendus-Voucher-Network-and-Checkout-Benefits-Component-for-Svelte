@@ -1,6 +1,6 @@
 {
 	"name": "sovendus-voucher-network-and-checkout-benefits-svelte",
-	"version": "1.0.7",
+	"version": "1.0.9",
 	"description": "Official React Component for Sovendus Voucher Network and Checkout Benefits",
 	"repository": {
 		"type": "git",
